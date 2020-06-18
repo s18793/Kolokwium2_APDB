@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Kolokwium2_apdb.Models
 {
-    public class PlayerTeam
+    public class PlayerTeaM
     {
         public int IdPlayer { get; set; }
 

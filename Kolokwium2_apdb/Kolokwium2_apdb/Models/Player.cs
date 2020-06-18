@@ -14,7 +14,7 @@ namespace Kolokwium2_apdb.Models
         public int LastName { get; set; }
         public DateTime DateOfBirth { get; set; }
 
-        public ICollection<PlayerTeam> PlayerTeams;
+        public ICollection<PlayerTeaM> PlayerTeams;
 
     }
 }

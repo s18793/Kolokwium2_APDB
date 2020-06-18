@@ -9,6 +9,6 @@ namespace Kolokwium2_apdb.Models
         public int MaxAge { get; set; }
 
         public  ICollection<ChampionshipTeam> ChampionshipTeam { get; set; }
-        public  ICollection<PlayerTeam> PlayerTeam { get; set; }
+        public  ICollection<PlayerTeaM> PlayerTeam { get; set; }
     }
 }
