@@ -34,7 +34,7 @@ namespace Kolokwium2_apdb.Models
                 opt.Property(p => p.TeamName).HasMaxLength(30).IsRequired();
 
 
-                opt.HasMany(p => p.ChampionshipTeam)
+                opt.HasMany(p => p.Championship)
                .WithOne(p => p.Team)
                .HasForeignKey(p => p.IdTeam);
 
